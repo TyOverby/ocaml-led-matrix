@@ -1,0 +1,5 @@
+(library
+ (name rgb_matrix)
+ (libraries ctypes ctypes.foreign)
+ (preprocess
+  (pps ppx_jane)))
